@@ -1,0 +1,40 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container" style="width:700px; border: 1px solid gray; border-radius:4px">
+  <div class="row">
+    <span class="col-lg-3">First Name</span>
+    <div class="col-lg-3">
+      <input type="text" />
+    </div>
+    <span class="col-lg-3">Last Name</span>
+    <div class="col-lg-3">
+      <input type="text" />
+    </div>
+  </div>
+  <div class="row">
+    <span class="col-lg-3">Mobile No</span>
+    <div class="col-lg-3">
+      <input type="text" />
+    </div>
+    <span class="col-lg-3">Joining Date</span>
+    <div class="col-lg-3">
+      <ej-datepicker #datepickerInstance [value]=value width='100%'></ej-datepicker>
+    </div>
+  </div>
+</div>
+
+<style>
+  input {
+    width: 100%
+  }
+
+  .row .col-lg-3 {
+    margin: 10px 0;
+    /*this height is eqivalent to the datepicker input height*/
+    line-height: 35px;
+  }
+
+  .container {
+    margin: 40px 20px;
+    padding: 20px;
+  }
+</style>
